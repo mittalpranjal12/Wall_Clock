@@ -1,10 +1,11 @@
+//initializing the functions in js with these two statements to get used in canvas
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
 ctx.font = "50px Comic Sans MS";
 ctx.fillStyle = "white";
 ctx.textAlign = "justify";
-ctx.fillText("My Wall Clock...", 20, 80);
+ctx.fillText("My Wall Clock...", 20, 80);             //even the text can be printed using js
 ctx.font = "40px Arial";
 ctx.strokeStyle = "white";
 ctx.strokeText("YEEYYY!!!", 50, 180);
